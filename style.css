@@ -88,6 +88,27 @@ body {
     margin-right: -15px; 
 }
 
+#blogposts{
+  width: 250px;
+}
+#blogposts>img{
+  width:250px;
+}
+
+#blogposts2{
+  width: 100%;
+  padding: 0 50px 0 50px;
+  
+}
+#blogposts2>div{
+  background-color: #d5d1d1;
+}
+#blogposts2>img{
+  width:100%;
+}
+
+
+
   .parallax2 {
     height: 100%;
     width: 100%;
