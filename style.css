@@ -1,12 +1,23 @@
+<<<<<<< HEAD
+*{
+  margin: 0;
+  padding: 0;
+}
+=======
+html{
+    background-color: red;
+}
+
+>>>>>>> parent of 804bd52... Dealing with the rows and columns under the home section
 body {
-  overflow-x: hidden;
-  margin-top: -60px;
+   overflow-x: hidden;
+   margin-top: -60px;
 }
 .navbar {
   min-height: 60px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .navbar-nav {
     float: none;
     margin: 0 auto;
@@ -16,44 +27,26 @@ body {
 }
 
 .navbar-nav > li {
-  float: left;
-  border: solid #d5d1d1 1px;
-  margin: 12px 10px;
-  padding: 0 20px;
-  color: #d5d1d1;
+    float: left;
+    border: solid #d5d1d1 1px;
+    margin: 12px 10px;
+    padding: 0 20px;
+    color: #d5d1d1;
 }
 
-.navbar-nav > li:hover {
-  background-color: #353131;
+.navbar-nav > li:hover{
+    background-color: #353131;
 }
 
 .navbar-inverse .navbar-nav > li > a {
+<<<<<<< HEAD
   color: #d5d1d1;
 }
 
 .home {
   height: 85vh;
   width: 100vw;
-  margin-left: -15px;
-  margin-right: -15px;
 }
-
-.somerows {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: 50px;
-}
-.feature-content{
-    width:300px;
-    height: auto;
-}
-
-.myimg{
-    width:300px;
-    height: auto;
-}
-
-   
 
 .parallax {
   height: 100%;
@@ -67,46 +60,74 @@ body {
   text-align: center;
   padding-top: 20%;
   color: white;
-}
-
-.services {
-  height: 100vh;
-  width: 100vw;
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.parallax2 {
-  height: 100%;
-  width: 100%;
-  margin-top: 100px;
-  background-image: url(src/img/a2.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding-top: 20%;
-  color: white;
+=======
+    color: #d5d1d1;
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px; 
+}
+.parallax {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(src/img/a3.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+  }
+
+  .services{
+    height: 100vh;
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px; 
 }
 
-.contact {
-  height: 100vh;
-  width: 100vw;
-  margin-left: -15px;
-  margin-right: -15px;
+  .parallax2 {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(src/img/a2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+  }
+
+  .contact{
+    height: 100vh;
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px; 
 }
 
-.parallax3 {
-  height: 100%;
-  width: 100%;
-  margin-top: 100px;
-  background-image: url(src/img/a4.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding-top: 20%;
-  color: white;
-}
+  .parallax3 {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(src/img/a4.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+  }
+>>>>>>> parent of 804bd52... Dealing with the rows and columns under the home section
+
+
